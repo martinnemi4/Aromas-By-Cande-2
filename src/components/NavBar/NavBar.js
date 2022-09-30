@@ -38,7 +38,7 @@ function BasicExample() {
             <NavLink to='/'>Inicio</NavLink>
             <NavLink to='/categoria/frutillas'>Frutillas</NavLink>
             <NavLink to=''>Contacto</NavLink>
-            <NavLink to=''>Chocolate</NavLink>
+            <NavLink to='/categoria/chocolates'>Chocolate</NavLink>
             <NavLink id='cw' to='/cart'><CartWidget/></NavLink>
           </Nav>
         </Navbar.Collapse>
