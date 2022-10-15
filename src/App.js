@@ -7,12 +7,13 @@ import Cart from './components/Cart/Cart';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import React from 'react';
 import CartProvider from './CartContext/CartContext';
-
+import Footer from './components/Footer/Footer';
+import Form from './components/Form/Form';
 
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <BrowserRouter>
         <CartProvider>
         <NavBar/>
@@ -21,9 +22,11 @@ function App() {
           <Route path='/categoria/:categoriaId' element={<ItemListContainer/>}/>
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/detalle/:detalleId' element={<ItemDetailContainer/>}/>
+          <Route path='/form' element={<Form/>}/>
         </Routes>
         </CartProvider>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }

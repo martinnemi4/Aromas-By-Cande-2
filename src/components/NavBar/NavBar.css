@@ -1,6 +1,16 @@
-#cw{
+#navbarcontain{
     display: flex;
     justify-content: center;
+}
+
+.nav{
+    display: flex;
     align-items: center;
 }
+
+a{
+    margin: 10px;
+}
+
+
 

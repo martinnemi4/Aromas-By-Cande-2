@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#cart{
+    display: flex;
+    justify-content: center;
+    margin: 31.5vh;
+    flex-direction: column;
+}
+
+#cart-padre{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+
+#textcart{
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+}
+
+#preciototal{
+    font-size: x-large;
+    text-decoration: underline;
+    margin: 5vh;
+}
+
+#btn3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+}
+

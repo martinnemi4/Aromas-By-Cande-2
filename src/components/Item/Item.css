@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.Item{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.imgdetalle{
+    border: 2px solid black;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+    font-size: medium;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.Item:hover{
+    color: white;
+    background-color: black;
+    opacity: 82%;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}

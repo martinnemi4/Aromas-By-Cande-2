@@ -1,0 +1,18 @@
+#form-contain{
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+p{
+    text-align: center;
+}
+
+.required{
+    color: red;
+}

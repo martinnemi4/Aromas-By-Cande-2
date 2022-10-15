@@ -1,0 +1,30 @@
+div>p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#contain-compra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 3vh;
+}
+
+#btn2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    border: 2px solid black;
+    border-radius: 20px;
+}

@@ -1,0 +1,12 @@
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#footp{
+    color: white;
+    margin: 5vh;
+}

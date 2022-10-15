@@ -1,0 +1,26 @@
+.ID{
+    margin: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h3{
+    margin: 5vh;
+    text-align: center;
+}
+
+#imgdt{
+    border: 7px groove black;
+    border-radius: 10px;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+

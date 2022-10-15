@@ -1,22 +1,4 @@
 import React from 'react'
-
-/*const NavBar = () => {
-  return (
-    <div>
-        <ul>
-            <li>Inicio</li>
-            <li>Tienda</li>
-            <li>Contacto</li>
-        </ul>
-    </div>
-  )
-}
-export default NavBar
-
-*/
-
-
-
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -28,22 +10,27 @@ import {NavLink} from 'react-router-dom'
 
 function BasicExample() {
   return (
-    <Navbar bg="light" expand="lg" className='nav'>
-      <Container>
-        <img src=''></img>
-        <Navbar.Brand href="#home">Aromas By Cande</Navbar.Brand>
+    <div id='navbarcontain'>
+    <Navbar  expand="lg" >
+      <Container className='nav'>
+        <NavLink to='/'>
+        <p className='logo'>Aromas By Cande</p>
+        </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='navegable'>
           <Nav className="me-auto">
-            <NavLink to='/'>Inicio</NavLink>
+            <NavLink to='/'><p>Inicio</p></NavLink>
             <NavLink to='/categoria/frutillas'>Frutillas</NavLink>
-            <NavLink to=''>Contacto</NavLink>
             <NavLink to='/categoria/chocolates'>Chocolate</NavLink>
-            <NavLink id='cw' to='/cart'><CartWidget/></NavLink>
+            <NavLink to='/categoria/alfajores'>Alfajores</NavLink>
+            <NavLink to='/categoria/limon'>Limon / Merengue</NavLink>
+            <NavLink to='/contacto'>Contacto</NavLink>
+            <NavLink to='/cart'><CartWidget/></NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
   );
 }
 

@@ -1,6 +1,8 @@
 import React, {useState, useContext} from 'react'
+import './CartContext.css'
 const CartContext = React.createContext([]);
 export const useCartContext = () => useContext(CartContext);
+
 
 const CartProvider = ({children}) => {
 //Estado para almacenar el carrito
