@@ -13,9 +13,6 @@ function BasicExample() {
     <div id='navbarcontain'>
     <Navbar  expand="lg" >
       <Container className='nav'>
-        <NavLink to='/'>
-        <p className='logo'>Aromas By Cande</p>
-        </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='navegable'>
           <Nav className="me-auto">

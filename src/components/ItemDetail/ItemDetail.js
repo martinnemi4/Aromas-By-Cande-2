@@ -19,7 +19,8 @@ const ItemDetail = ({data}) => {
             <img width="600px" src={data.imagen} id='imgdt'/>
             <div>
                 <h3>{data.titulo}</h3>
-      {goToCart ? <Link to='/cart' id='btn'>Ir al carrito</Link> : <ItemCount
+                <h3>${data.precio}</h3>
+      {goToCart ? <div><Link to='/cart' id='btn'>Ir al carrito</Link> <p>O</p><Link to='/' id='btnsecond'>Seguir Comprando</Link></div> : <ItemCount
       initial={1}
       stock={7}
       onAdd={onAdd}

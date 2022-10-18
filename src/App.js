@@ -9,11 +9,15 @@ import React from 'react';
 import CartProvider from './CartContext/CartContext';
 import Footer from './components/Footer/Footer';
 import Form from './components/Form/Form';
+import Logo from './components/Logo/Logo';
+import Contacto from './components/Contacto/Contacto';
+
 
 
 function App() {
   return (
     <div className='App'>
+      <Logo/>
       <BrowserRouter>
         <CartProvider>
         <NavBar/>
@@ -23,6 +27,7 @@ function App() {
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/detalle/:detalleId' element={<ItemDetailContainer/>}/>
           <Route path='/form' element={<Form/>}/>
+          <Route path='/contacto' element={<Contacto/>}/>
         </Routes>
         </CartProvider>
       </BrowserRouter>

@@ -10,6 +10,7 @@ const nombre = useCartContext()
     <Link to={`/detalle/${info.id}`} className='Item'>
         <img width="350pxpx" height="200px" src={info.imagen} className="imgdetalle"></img>
         <h5>{info.titulo}</h5>
+        <h3>${info.precio}</h3>
     </Link>
   )
 }

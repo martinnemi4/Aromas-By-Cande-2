@@ -1,7 +1,5 @@
-#ILC{
+#logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    margin: 3vh;
 }

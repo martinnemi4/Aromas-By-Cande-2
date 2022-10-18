@@ -1,0 +1,25 @@
+#contain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4vh;
+}
+
+#datos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5vh;
+}
+
+#btn2{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-hijo{
+    display: flex;
+    border: 2px solid;
+    margin: 3vh;
+}
+
